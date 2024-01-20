@@ -1,0 +1,126 @@
+.main-header {
+    background: url(images/s-lich.jpg) center/cover;
+    height: 720px;
+    color: rgb(209, 98, 0); 
+    padding: 20px;
+}
+
+.main-title{
+    padding-top: 22%;
+    padding-left: 5%;
+    font-size: 55px;
+    font-family:system-ui, -apple-system, sans-serif;
+    text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.main-subtitle{
+    padding-top: 0.1%;
+    padding-left: 8.5%;
+    font-size: 25px;
+    font-family:system-ui, -apple-system, sans-serif;
+    text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
+    font-weight: 550;
+}
+
+.artistic-port {
+    background: url(images/port-arts.JPEG) center/cover;
+    height: 720px;
+    color: black; 
+    padding: 20px;
+}
+
+.artistic-port-title{
+
+    padding-top: 22%;
+    padding-left: 5%;
+    font-size: 55px;
+    font-family:system-ui, -apple-system, sans-serif;
+    text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.prof-port {
+    background: url(images/port-prof.JPG) center/cover;
+    height: 720px;
+    color: black; 
+    padding: 20px;
+}
+
+.prof-port-title{
+
+    padding-top: 22%;
+    padding-left: 5%;
+    font-size: 55px;
+    font-family:system-ui, -apple-system, sans-serif;
+    text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.about-me {
+    background: url(images/about-me.JPEG) center/cover;
+    height: 720px;
+    color: black; 
+    padding: 20px;
+}
+
+.about-me-title{
+
+    padding-top: 22%;
+    padding-left: 5%;
+    font-size: 55px;
+    font-family:system-ui, -apple-system, sans-serif;
+    text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.for-sale {
+    background: url(images/for-sale.JPG) center/cover;
+    height: 720px;
+    color: black; 
+    padding: 20px;
+}
+
+.for-sale-title{
+
+    padding-top: 22%;
+    padding-left: 5%;
+    font-size: 55px;
+    font-family:system-ui, -apple-system, sans-serif;
+    text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
+}
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+
+
+@media only screen and (max-width: 600px) {
+    .section {
+        height: auto;
+        padding: 10px;
+    }
+
+    /* Adjust other styles as needed for mobile */
+    .artistic-port-title, .prof-port-title, .about-me-title, .for-sale-title {
+        padding-top: 10%;
+        padding-left: 2%;
+        font-size: 20px;
+        color: wheat;
+    }
+    .main-title {
+        padding-top: 10%;
+        padding-left: 2%;
+        font-size: 20px;
+    }
+    .main-subtitle {
+        font-size: 12px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+  }
+
+  a:hover {
+    color: #007bff;
+    cursor: pointer;
+  }
