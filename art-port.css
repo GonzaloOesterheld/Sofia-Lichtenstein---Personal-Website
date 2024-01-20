@@ -9,58 +9,60 @@ head, body {
     margin: 0;
     padding: 0;
     background-color: #acb6aa;
-  }
-
-h1{
-  text-decoration: underline;
-}
-  
-  .gallery a {
-    display: block;
-    overflow: hidden;
-    width: auto;
-    height: auto;
-    max-height: 450px;
-    margin: 1px;
-    border: 0; 
-  }
-
-  .gallery a:hover img {
-    transform: scale(1.1);
-  }
-
-  .gallery a:hover::before {
-    content: "Click para ver"; /* Your message goes here */
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-    color: #fff;
-    font-size: 14px;
-    padding: 5px;
-    border-radius: 2px;
-    pointer-events: none;
-    z-index: 10;
-    position: absolute;
-    
-  }
-
-  h1 {
-    font-family: 'EB Garamond', serif;
-    font-size: 70px;
-    text-align: center;
-    padding: 60px 30px 60px 30px;
-    background-color: #acb6aa;
-    color: palegoldenrod;
-    margin: 0;
-  }
-  
-  .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 5px;
-    width: 100%;
   }
+
+h1 {
+  font-family: 'EB Garamond', serif;
+  font-size: 70px;
+  text-align: center;
+  padding: 60px 30px 60px 30px;
+  background-color: #acb6aa;
+  color: palegoldenrod;
+  margin: 0;
+  text-decoration: underline;
+}  
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 5px;
+    width: 90%;
+}
+
+.gallery a {
+  display: block;
+  overflow: hidden;
+  width: 50%;
+  height: auto;
+  margin: 1px;
+  border: 0; 
+  justify-content: center;
+}
+
+.gallery a:hover img {
+  transform: scale(1.1);
+}
+
+.gallery a:hover::before {
+  content: "Click para ver"; /* Your message goes here */
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: #fff;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 10;
+  position: absolute;
+  
+}
   
   .gallery img {
 
@@ -80,8 +82,9 @@ h1{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
     flex-grow: 1;
-    padding: 55px 5px 55px 150px;
+    padding: 55px 5px 55px 5px;
   }
 
   .txts{
@@ -106,12 +109,20 @@ h1{
 
   @media only screen and (max-width: 600px) {
     .img-txt{
-     max-width: 200px; 
-     max-height: 250px;
+      padding: 0;
+      margin: 0;
     }
-    
+    .txts{
+      padding: 0;
+      margin: 5px;
+      width: 40%;
+      height: auto;
+    }
+    .txts h2{
+      font-size: 25px;
+    }
     .txts p{
-      font-size: 12px;
+      font-size: 15px;
     }
   
   }
