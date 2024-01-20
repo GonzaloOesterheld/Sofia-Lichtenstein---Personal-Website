@@ -107,6 +107,7 @@ h1{
   @media only screen and (max-width: 600px) {
     .img-txt{
      max-width: 200px; 
+     max-height: 250px;
     }
     
     .txts p{
