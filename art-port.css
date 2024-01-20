@@ -102,3 +102,15 @@ h1{
   .txts p{
     font-size: 25px;
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .img-txt{
+     max-width: 200px; 
+    }
+    
+    .txts p{
+      font-size: 12px;
+    }
+  
+  }
