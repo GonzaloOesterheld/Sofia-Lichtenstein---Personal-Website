@@ -14,14 +14,14 @@
     padding-top: 22%;
     padding-left: 5%;
     font-size: 55px;
-    font-family: 'EB Garamond', serif;;
+    font-family: 'Merriweather', serif;
     text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .artistic-port {
     background: url(images/port-arts.JPEG) center/cover;
     height: 720px;
-    color: black; 
+    color: #b55322;
     padding: 20px;
 }
 
@@ -30,14 +30,14 @@
     padding-top: 22%;
     padding-left: 5%;
     font-size: 55px;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Merriweather', serif;
     text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .prof-port {
     background: url(images/port-prof.JPG) center/cover;
     height: 720px;
-    color: black; 
+    color: #b55322;
     padding: 20px;
 }
 
@@ -46,15 +46,16 @@
     padding-top: 22%;
     padding-left: 5%;
     font-size: 55px;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Merriweather', serif;
     text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .about-me {
     background: url(images/about-me.JPEG) center/cover;
     height: 720px;
-    color: black; 
+    color: #b55322;
     padding: 20px;
+
 }
 
 .about-me-title{
@@ -62,14 +63,14 @@
     padding-top: 22%;
     padding-left: 5%;
     font-size: 55px;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Merriweather', serif;
     text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .for-sale {
     background: url(images/for-sale.JPG) center/cover;
     height: 720px;
-    color: black; 
+    color: #b55322;
     padding: 20px;
 }
 
@@ -78,7 +79,7 @@
     padding-top: 22%;
     padding-left: 5%;
     font-size: 55px;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Merriweather', serif;
     text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
 }
 body, html {
@@ -97,13 +98,12 @@ body, html {
     .artistic-port-title, .prof-port-title, .about-me-title, .for-sale-title {
         padding-top: 10%;
         padding-left: 2%;
-        font-size: 20px;
-        color: wheat;
+        font-size: 50px;
     }
     .main-title {
         padding-top: 10%;
         padding-left: 2%;
-        font-size: 20px;
+        font-size: 50px;
     }
 }
 

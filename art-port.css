@@ -3,26 +3,27 @@
 }
 
 head, body {
-    font-family: 'EB Garamond', serif;
-    font-weight: lighter;
     color: palegoldenrod;
     margin: 0;
     padding: 0;
-    background-color: #acb6aa;
+    background-color: #897650;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
 h1 {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Merriweather', serif;
   font-size: 70px;
   text-align: center;
   padding: 60px 30px 60px 30px;
-  background-color: #acb6aa;
+  background-color: #897650;
   color: palegoldenrod;
   margin: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
   text-decoration: underline;
+  border: 2px solid palegoldenrod;
 }  
 
 
@@ -38,7 +39,7 @@ h1 {
 .gallery a {
   display: block;
   overflow: hidden;
-  width: 50%;
+  width: 55%;
   height: auto;
   margin: 1px;
   border: 0; 
@@ -66,11 +67,11 @@ h1 {
   
   .gallery img {
 
-    width: 95%;
+    width: 100%;
     height: auto;
     max-height: 450px;
     object-fit: cover;
-    margin: 20px;
+    margin: 0px;
     transition: transform 0.3s ease-in-out;
   }
   
@@ -87,42 +88,90 @@ h1 {
     padding: 55px 5px 55px 5px;
   }
 
-  .txts{
-    font-family: 'EB Garamond', serif;
+  .txts-left{
     background-color: #333;
-    color: palegoldenrod;
-    border-radius: 5px;
+    border-radius: 5px 30px 5px 30px;
     max-width: 360px;
     max-height: 420px;
-    border: 1px solid #333;
-    margin-top: 30px;
+    margin-top: 30px;  
+    margin-right: 3%;
   }
 
-  .txts h2 {
-    font-size: 40px;
+  .txts-right{
+    background-color: #333;
+    border-radius: 5px 30px 5px 30px;
+    max-width: 360px;
+    max-height: 420px;
+    margin-top: 30px;  
+    margin-left: 3%;
   }
 
-  .txts p{
+  .txts-left h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    padding: 5px;
+    padding-left: 15px;
+    color:#a3ba9f
+  }
+
+  .txts-left p{
+    font-family: 'EB Garamond', serif;
+    color: palegoldenrod;
     font-size: 25px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .txts-right h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    padding: 5px;
+    padding-left: 15px;
+    color:#a3ba9f
+  }
+
+  .txts-right p{
+    font-family: 'EB Garamond', serif;
+    color: palegoldenrod;
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
 
   @media only screen and (max-width: 600px) {
     .img-txt{
       padding: 0;
+      padding-bottom: 3px;
       margin: 0;
     }
-    .txts{
+    .txts-left{
       padding: 0;
       margin: 5px;
       width: 40%;
       height: auto;
     }
-    .txts h2{
-      font-size: 25px;
+    .txts-left h2{
+      font-size: 20px;
     }
-    .txts p{
+    .txts-left p{
       font-size: 15px;
     }
   
+    .txts-right{
+      padding: 0;
+      margin: 5px;
+      width: 40%;
+      height: auto;
+    }
+    .txts-right h2{
+      font-size: 20px;
+    }
+    .txts-right p{
+      font-size: 15px;
+    }
   }
