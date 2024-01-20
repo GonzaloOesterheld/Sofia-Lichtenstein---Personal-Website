@@ -14,16 +14,15 @@ head, body {
 
 h1 {
   font-family: 'Merriweather', serif;
-  font-size: 70px;
+  font-size: 40px;
   text-align: center;
   padding: 60px 30px 60px 30px;
   background-color: #897650;
   color: palegoldenrod;
   margin: 0;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   text-decoration: underline;
-  border: 2px solid palegoldenrod;
 }  
 
 
@@ -32,52 +31,29 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     flex-grow: 1;
-    padding: 5px;
-    width: 90%;
+    width: 100%;
+
 }
 
 .gallery a {
   display: block;
   overflow: hidden;
-  width: 55%;
+  width: 58%;
   height: auto;
-  margin: 1px;
   border: 0; 
   justify-content: center;
+  object-fit: cover;
 }
 
-.gallery a:hover img {
-  transform: scale(1.1);
-}
 
-.gallery a:hover::before {
-  content: "Click para ver"; /* Your message goes here */
-  transform: translate(-50%, -50%);
-  font-weight: bold;
-  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
-  color: #fff;
-  font-size: 14px;
-  padding: 5px;
-  border-radius: 2px;
-  pointer-events: none;
-  z-index: 10;
-  position: absolute;
-  
-}
   
   .gallery img {
-
     width: 100%;
-    height: auto;
-    max-height: 450px;
+    height: 100%;
     object-fit: cover;
     margin: 0px;
-    transition: transform 0.3s ease-in-out;
   }
-  
-  .gallery img:hover {
-    transform: scale(1.1);
-  }
+
 
   .img-txt{
     display: flex;
@@ -85,25 +61,19 @@ h1 {
     flex-direction: row;
     justify-content: center;
     flex-grow: 1;
-    padding: 55px 5px 55px 5px;
+    padding: 55px 0px 55px 0px;
   }
 
   .txts-left{
     background-color: #333;
-    border-radius: 5px 30px 5px 30px;
-    max-width: 360px;
-    max-height: 420px;
-    margin-top: 30px;  
-    margin-right: 3%;
+    max-width: 39%; 
+    object-fit: cover;
   }
 
   .txts-right{
     background-color: #333;
-    border-radius: 5px 30px 5px 30px;
-    max-width: 360px;
-    max-height: 420px;
-    margin-top: 30px;  
-    margin-left: 3%;
+    max-width: 39%;
+    object-fit: cover;
   }
 
   .txts-left h2 {
@@ -111,7 +81,7 @@ h1 {
     font-size: 35px;
     padding: 5px;
     padding-left: 15px;
-    color:#a3ba9f
+    color:#a3ba9f;
   }
 
   .txts-left p{
@@ -122,6 +92,7 @@ h1 {
     padding-top: 0px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-right: 10px;
   }
 
   .txts-right h2 {
@@ -151,8 +122,7 @@ h1 {
     }
     .txts-left{
       padding: 0;
-      margin: 5px;
-      width: 40%;
+      max-width: 39%;
       height: auto;
     }
     .txts-left h2{
@@ -164,8 +134,7 @@ h1 {
   
     .txts-right{
       padding: 0;
-      margin: 5px;
-      width: 40%;
+      max-width: 39%;
       height: auto;
     }
     .txts-right h2{
