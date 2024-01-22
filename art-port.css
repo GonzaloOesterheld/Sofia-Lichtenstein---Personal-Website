@@ -3,10 +3,10 @@
 }
 
 head, body {
-    color: palegoldenrod;
+    color: #ffffff;
     margin: 0;
     padding: 0;
-    background-color: #897650;
+    background-color: #3a2a19;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -14,15 +14,14 @@ head, body {
 
 h1 {
   font-family: 'Merriweather', serif;
-  font-size: 40px;
+  font-size: 75px;
   text-align: center;
-  padding: 60px 30px 60px 30px;
-  background-color: #897650;
-  color: palegoldenrod;
+  padding: 60px 30px 20px 30px;
+  background-color: #3a2a19;
+  color: #faebd7;
   margin: 0;
   margin-top: 15px;
   margin-bottom: 15px;
-  text-decoration: underline;
 }  
 
 
@@ -59,7 +58,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     flex-grow: 1;
-    padding: 55px 0px 55px 0px;
+    padding: 15px 0px 15px 0px;
   }
 
   .txts-left{
@@ -84,7 +83,7 @@ h1 {
 
   .txts-left p{
     font-family: 'EB Garamond', serif;
-    color: palegoldenrod;
+    color: #ffffff;
     font-size: 25px;
     padding-bottom: 5px;
     padding-top: 0px;
@@ -103,7 +102,7 @@ h1 {
 
   .txts-right p{
     font-family: 'EB Garamond', serif;
-    color: palegoldenrod;
+    color: #ffffff;
     font-size: 25px;
     padding-bottom: 5px;
     padding-top: 0px;
@@ -113,6 +112,10 @@ h1 {
 
 
   @media only screen and (max-width: 600px) {
+    h1{
+      font-size: 65px;
+    }
+    
     .img-txt{
       padding: 0;
       padding-bottom: 3px;
