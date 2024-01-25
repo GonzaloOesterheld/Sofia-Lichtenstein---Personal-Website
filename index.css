@@ -1,5 +1,6 @@
 * {
     font-style: italic;
+    -webkit-tap-highlight-color:transparent;
 }
 
 @font-face {
@@ -95,7 +96,7 @@ body, html {
 
 #preloader{
     background: #000 url(images/Spinner-2s-200px.gif) no-repeat center;
-    background-size: 5%;
+    background-size: 25%;
     height: 100vh;
     width: 100%;
     position: fixed;
