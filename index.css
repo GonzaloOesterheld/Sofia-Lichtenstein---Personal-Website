@@ -15,6 +15,14 @@
     padding: 20px;
 }
 
+.main-name{
+    padding-top: 18%;
+    padding-left: 5%;
+    font-size: 105px;
+    font-family: BlackMango, serif;
+    text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
 .main-title{
     padding-top: 18%;
     padding-left: 5%;
@@ -117,9 +125,15 @@ body, html {
         font-size: 50px;
     }
     .main-title {
+        padding-top: 0;
+        padding-left: 2%;
+        font-size: 50px;
+    }
+    .main-name {
+        padding-bottom: 0;
         padding-top: 4%;
         padding-left: 2%;
-        font-size: 70px;
+        font-size: 65px;
     }
 }
 
