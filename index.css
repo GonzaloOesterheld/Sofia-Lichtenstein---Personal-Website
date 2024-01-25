@@ -10,18 +10,19 @@
 
 .main-header {
     background: url(images/s-lich.jpg) center/cover;
-    height: 720px;
-    color: #3a2a19; 
+    height: 760px;
+    color: #9e2a2a; 
     padding: 20px;
 }
 
 .main-title{
-    padding-top: 22%;
+    padding-top: 18%;
     padding-left: 5%;
     font-size: 85px;
     font-family: BlackMango, serif;
     text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
 }
+
 
 .artistic-port {
     background: url(images/port-arts.JPEG) center/cover;
@@ -116,9 +117,9 @@ body, html {
         font-size: 50px;
     }
     .main-title {
-        padding-top: 10%;
+        padding-top: 4%;
         padding-left: 2%;
-        font-size: 50px;
+        font-size: 70px;
     }
 }
 
