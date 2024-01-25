@@ -9,17 +9,39 @@ body {
     padding: 0;
     background-color: #3a2a19;
   }
-  
-  header, h1 {
-    font-family: BlackMango, serif;
-    font-size: 65px;
-    text-align: center;
-    padding: 10px 30px 20px 30px;
+
+header{
+  background-color: #3a2a19;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+header h1{
+  font-size: 65px;
+}
+
+header button{
     background-color: #3a2a19;
     color: #faebd7;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
+    border: 1px #faebd7 solid;
+    padding:15px;
+    max-height: 45px;
+    margin-right: 85%;
+    margin-bottom: 1%;
+}
+
+header button:hover{
+  background-color: #faebd7;
+  color: #3a2a19;
+  border: 1px #faebd7 solid;
+  padding:15px;
+  max-height: 45px;
+  margin-right: 85%;
+}
   
   header, p {
     font-family: BlackMango, serif;
@@ -30,6 +52,11 @@ body {
     color: #faebd7;
     margin-top: 15px;
     margin-bottom: 15px;
+  }
+
+  hr{
+    border: 1px #faebd7 solid;
+    background-color: #faebd7;
   }
 
   main {

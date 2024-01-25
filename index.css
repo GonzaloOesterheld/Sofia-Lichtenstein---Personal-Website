@@ -1,5 +1,4 @@
 * {
-    font-style: italic;
     -webkit-tap-highlight-color:rgba(0, 0, 0, 0);
 }
 
@@ -12,7 +11,7 @@
 .main-header {
     background: url(images/s-lich.jpg) center/cover;
     height: 720px;
-    color: #faebd7; 
+    color: #3a2a19; 
     padding: 20px;
 }
 
@@ -27,7 +26,7 @@
 .artistic-port {
     background: url(images/port-arts.JPEG) center/cover;
     height: 720px;
-    color: #faebd7;
+    color: #3a2a19;
     padding: 20px;
 }
 
@@ -43,7 +42,7 @@
 .prof-port {
     background: url(images/port-prof.JPG) center/cover;
     height: 720px;
-    color: #faebd7;
+    color: #3a2a19;
     padding: 20px;
 }
 
@@ -59,7 +58,7 @@
 .about-me {
     background: url(images/about-me.JPEG) center/cover;
     height: 720px;
-    color: #faebd7;
+    color: #3a2a19;
     padding: 20px;
 
 }
@@ -76,7 +75,7 @@
 .for-sale {
     background: url(images/for-sale-2.jpg ) center/cover;
     height: 720px;
-    color: #faebd7;
+    color: #3a2a19;
     padding: 20px;
 }
 
@@ -130,6 +129,6 @@ a {
   }
 
   a:hover {
-    color: #0056b2;
+    color: #00366f;
     cursor: pointer;
   }

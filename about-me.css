@@ -16,26 +16,44 @@ body {
     color: #faebd7;
 }
 
-/* Apply styles to the header */
-header {
+header{
     background-color: #3a2a19;
-    color: #faebd7;
-    text-align: left;
-    padding: 1em;
-    font-size: 45px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+header p{
+    font-size: 65px;
+
 }
 
 header button{
- margin-right: 30%;
- margin-left: -2%;
- border: #faebd7 1px solid;
- color: #faebd7;
- font-family: BlackMango, serif;
- font-size: 13px;
-
- background-color: #3a2a19;
- padding: 13px;  
+    background-color: #3a2a19;
+    color: #faebd7;
+    border: 1px #faebd7 solid;
+    padding:15px;
+    max-height: 45px;
+    margin-right: 85%;
+    margin-bottom: 10%;
 }
+
+header button:hover{
+    background-color: #faebd7;
+    color: #3a2a19;
+    border: 1px #faebd7 solid;
+    padding:15px;
+    max-height: 45px;
+    margin-right: 85%;
+}
+
+hr{
+    border: 1px #faebd7 solid;
+    background-color: #faebd7;
+  }
 
 /* Apply styles to the main content */
 main {
@@ -125,11 +143,6 @@ main {
         padding-top: 15px;
     }
 
-    header {
-        line-height: 1.9;
-        padding-top: 10px;
-        font-size: 55px;
-    }
 }
 
 #preloader{

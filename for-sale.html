@@ -15,10 +15,13 @@
   <div id="preloader"></div>
 
   <header>
+    <button id="backtrackButton">Home</button>
     <h1>A la venta</h1>
     <p>Estamos en Martinez, San Isidro</p>
     <p>Contactame en sofilich@gmail.com</p>
+    <hr>
   </header>
+
   <main>
     <section class="product-container">
       <div class="product">
@@ -40,7 +43,11 @@
       <!-- Add more products as needed -->
     </section>
   </main>
-  <script>
+  <script>  
+    document.getElementById('backtrackButton').addEventListener('click', function() {
+        window.history.back();
+    }
+    );    
     var loader = document.getElementById("preloader");
     window.addEventListener("load", function(){
         loader.style.display = "none";

@@ -15,7 +15,11 @@
 
         <div id="preloader"></div>
 
-        <h1>Portafolio Publicitario</h1>
+        <header>
+            <button id="backtrackButton">Home</button>
+            <p>Portafolio Publicitario</p>
+            <hr>
+        </header>
         
         <div class="gallery">
             
@@ -55,6 +59,10 @@
         </div>
         
         <script>
+        document.getElementById('backtrackButton').addEventListener('click', function() {
+            window.history.back();
+        }
+        );
             var loader = document.getElementById("preloader");
             window.addEventListener("load", function(){
                 loader.style.display = "none";
