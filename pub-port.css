@@ -168,6 +168,9 @@ hr{
     .txts-right p{
       font-size: 15px;
     }
+    header button{
+      margin-right: 75%;
+    }
   }
 
 

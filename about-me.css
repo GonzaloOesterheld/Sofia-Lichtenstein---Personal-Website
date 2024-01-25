@@ -143,6 +143,10 @@ main {
         padding-top: 15px;
     }
 
+    header button{
+        margin-right: 75%;
+    }
+
 }
 
 #preloader{
