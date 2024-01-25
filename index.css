@@ -39,7 +39,7 @@
 .artistic-port {
     background: url(images/port-arts.JPEG) center/cover;
     height: 720px;
-    color: #3a2a19;
+    color: #00366f;
     padding: 20px;
 }
 
@@ -56,7 +56,7 @@
 .prof-port {
     background: url(images/port-prof.JPG) center/cover;
     height: 720px;
-    color: #3a2a19;
+    color: #00366f;
     padding: 20px;
 }
 
@@ -73,7 +73,7 @@
 .about-me {
     background: url(images/about-me.JPEG) center/cover;
     height: 720px;
-    color: #3a2a19;
+    color: #00366f;
     padding: 20px;
 
 }
@@ -85,13 +85,12 @@
     font-size: 55px;
     line-height: 0.9;
     font-family: BlackMango, serif;
-    text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .for-sale {
     background: url(images/for-sale-2.jpg ) center/cover;
     height: 720px;
-    color: #3a2a19;
+    color: #00366f;
     padding: 20px;
 }
 
@@ -107,8 +106,7 @@
 body, html {
     margin: 0;
     padding: 0;
-  }
-
+}
 
 #preloader{
     background: #000 url(images/Spinner-2s-200px.gif) no-repeat center;
@@ -143,6 +141,9 @@ body, html {
         padding-left: 2%;
         font-size: 65px;
     }
+    .arrow-right {
+        margin-top: 50%;
+    }
 }
 
 a {
@@ -154,8 +155,13 @@ a {
   }
 
   a:hover {
-    color: #00366f;
+    color: #0650a0;
     cursor: pointer;
     margin:0;
     padding: 0;
+  }
+
+  hr{
+    margin: 0;
+    border: 1px solid #00366f;
   }

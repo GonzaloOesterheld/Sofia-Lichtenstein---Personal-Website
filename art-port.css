@@ -90,13 +90,13 @@ hr{
   }
 
   .txts-left{
-    background-color: #333;
+    background-color: black;
     max-width: 39%; 
     object-fit: cover;
   }
 
   .txts-right{
-    background-color: #333;
+    background-color: black;
     max-width: 39%;
     object-fit: cover;
   }
@@ -106,7 +106,7 @@ hr{
     font-size: 35px;
     padding: 5px;
     padding-left: 15px;
-    color:#a3ba9f;
+    color:#faebd7;
   }
 
   .txts-left p{
@@ -125,7 +125,7 @@ hr{
     font-size: 35px;
     padding: 5px;
     padding-left: 15px;
-    color:#a3ba9f
+    color:#faebd7
   }
 
   .txts-right p{
@@ -143,7 +143,7 @@ hr{
 
     .img-txt{
       padding: 0;
-      padding-bottom: 3px;
+      padding-bottom: 8px;
       margin: 0;
     }
     .txts-left{
