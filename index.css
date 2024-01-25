@@ -2,6 +2,11 @@
     font-style: italic;
 }
 
+@font-face {
+    font-family: BlackMango;
+    src: url(BlackMango-SemiBold.otf);
+}
+
 
 .main-header {
     background: url(images/s-lich.jpg) center/cover;
@@ -14,7 +19,7 @@
     padding-top: 22%;
     padding-left: 5%;
     font-size: 85px;
-    font-family: 'Merriweather', serif;
+    font-family: BlackMango, serif;
     text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -30,7 +35,7 @@
     padding-top: 22%;
     padding-left: 5%;
     font-size: 55px;
-    font-family: 'Merriweather', serif;
+    font-family: BlackMango, serif;
     text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -46,7 +51,7 @@
     padding-top: 22%;
     padding-left: 5%;
     font-size: 55px;
-    font-family: 'Merriweather', serif;
+    font-family: BlackMango, serif;
     text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
@@ -63,12 +68,12 @@
     padding-top: 22%;
     padding-left: 5%;
     font-size: 55px;
-    font-family: 'Merriweather', serif;
+    font-family: BlackMango, serif;
     text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 .for-sale {
-    background: url(images/for-sale-2.jpg) center/cover;
+    background: url(images/for-sale-2.jpg ) center/cover;
     height: 720px;
     color: #faebd7;
     padding: 20px;
@@ -79,7 +84,7 @@
     padding-top: 22%;
     padding-left: 5%;
     font-size: 55px;
-    font-family: 'Merriweather', serif;
+    font-family: BlackMango, serif;
     text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
 }
 body, html {

@@ -2,6 +2,11 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: BlackMango;
+  src: url(BlackMango-SemiBold.otf);
+}
+
 head, body {
     color: #ffffff;
     margin: 0;
@@ -13,7 +18,7 @@ head, body {
   }
 
 h1 {
-  font-family: 'Merriweather', serif;
+  font-family: BlackMango, serif;
   font-size: 75px;
   text-align: center;
   padding: 60px 30px 20px 30px;
@@ -74,7 +79,7 @@ h1 {
   }
 
   .txts-left h2 {
-    font-family: 'Merriweather', serif;
+    font-family: BlackMango, serif;
     font-size: 35px;
     padding: 5px;
     padding-left: 15px;
@@ -93,7 +98,7 @@ h1 {
   }
 
   .txts-right h2 {
-    font-family: 'Merriweather', serif;
+    font-family: BlackMango, serif;
     font-size: 35px;
     padding: 5px;
     padding-left: 15px;

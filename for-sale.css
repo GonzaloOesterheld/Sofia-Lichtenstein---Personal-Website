@@ -1,3 +1,8 @@
+@font-face {
+  font-family: BlackMango;
+  src: url(BlackMango-SemiBold.otf);
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,7 +11,7 @@ body {
   }
   
   header, h1 {
-    font-family: 'Merriweather', serif;
+    font-family: BlackMango, serif;
     font-size: 65px;
     text-align: center;
     padding: 10px 30px 20px 30px;
@@ -17,7 +22,7 @@ body {
   }
   
   header, p {
-    font-family: 'Merriweather', serif;
+    font-family: BlackMango, serif;
     font-size: 15px;
     text-align: center;
     padding: 2px 15px 2px 15px;
