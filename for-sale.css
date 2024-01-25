@@ -79,3 +79,13 @@ body {
         width: 100%;
     }
   }
+
+
+  #preloader{
+    background: #000 url(images/Spinner-2s-200px.gif) no-repeat center;
+    background-size: 5%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}

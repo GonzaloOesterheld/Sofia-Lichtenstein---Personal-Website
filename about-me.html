@@ -11,7 +11,10 @@
       </style>
 </head>
 <body>
-    <header>Acerca de mi</header>
+
+    <div id="preloader"></div>
+
+    <header> <button id="backtrackButton">Home</button><p>Acerca de mi</p></header>
 
     <main>
         <div class="main-img">
@@ -30,6 +33,16 @@
             <img src="images/port-arts.JPEG" alt="Photo 3" />
         </div>
     </main>
+    <script>
+        document.getElementById('backtrackButton').addEventListener('click', function() {
+            window.history.back();
+        }
+        );
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+    </script>
 
 </body>
 </html>

@@ -20,9 +20,21 @@ body {
 header {
     background-color: #3a2a19;
     color: #faebd7;
-    text-align: center;
+    text-align: left;
     padding: 1em;
     font-size: 45px;
+}
+
+header button{
+ margin-right: 30%;
+ margin-left: -2%;
+ border: #faebd7 1px solid;
+ color: #faebd7;
+ font-family: BlackMango, serif;
+ font-size: 13px;
+
+ background-color: #3a2a19;
+ padding: 13px;  
 }
 
 /* Apply styles to the main content */
@@ -114,6 +126,17 @@ main {
     }
 
     header {
-        font-size: 40px;
+        line-height: 1.9;
+        padding-top: 10px;
+        font-size: 55px;
     }
+}
+
+#preloader{
+    background: #000 url(images/Spinner-2s-200px.gif) no-repeat center;
+    background-size: 5%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }

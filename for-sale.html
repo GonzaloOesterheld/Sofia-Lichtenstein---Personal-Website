@@ -11,6 +11,9 @@
         </style>
     </head>
 <body>
+
+  <div id="preloader"></div>
+
   <header>
     <h1>A la venta</h1>
     <p>Estamos en Martinez, San Isidro</p>
@@ -37,5 +40,11 @@
       <!-- Add more products as needed -->
     </section>
   </main>
+  <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function(){
+        loader.style.display = "none";
+    })
+</script>
 </body>
 </html>

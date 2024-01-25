@@ -12,6 +12,8 @@
 </head>
 <body>
 
+    <div id="preloader"></div>
+
     <section class="main-header">
         <h1 class="main-title">Sofia Lichtenstein</h1>
     </section>
@@ -31,6 +33,13 @@
     <section class="for-sale">
         <h1 class="for-sale-title"><a href="for-sale.html">A la venta</a></h1>
     </section>
+
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+    </script>
 
 </body>
 </html>

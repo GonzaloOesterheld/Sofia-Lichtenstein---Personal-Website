@@ -13,6 +13,8 @@
 
     <body>
 
+        <div id="preloader"></div>
+
         <h1>Portafolio Publicitario</h1>
         
         <div class="gallery">
@@ -52,6 +54,12 @@
           <!-- Add more images as needed -->
         </div>
         
+        <script>
+            var loader = document.getElementById("preloader");
+            window.addEventListener("load", function(){
+                loader.style.display = "none";
+            })
+        </script>
         </body>
 
 </html>
