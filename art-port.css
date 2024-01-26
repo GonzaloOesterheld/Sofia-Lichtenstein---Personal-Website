@@ -171,7 +171,10 @@ hr{
     }
     header button{
       margin-right: 75%;
-  }
+    }
+    header button:hover{
+      margin-right: 75%;
+    }
   }
 
 
