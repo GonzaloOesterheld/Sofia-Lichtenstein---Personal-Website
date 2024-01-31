@@ -9,48 +9,86 @@
 
 
 .main-header {
-    background: url(images/s-lich.jpg) center/cover;
-    height: 760px;
-    color: #9e2a2a; 
-    padding: 20px;
+    magin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #BE8F6E;
+    color: #EDE9E3; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 .main-name{
-    padding-top: 18%;
-    padding-left: 5%;
     font-size: 105px;
     line-height: 0;
     font-family: BlackMango, serif;
     text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-.main-title{
-    padding-top: 18%;
-    padding-left: 5%;
-    font-size: 85px;
+.main-title{  
+    font-size: 105px;
     line-height: 0;
     font-family: BlackMango, serif;
     text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
-    margin: 0;
-    padding: 0;
 }
 
 
+
+.imagen-separador{
+  background: url("images/port-arts.JPEG") center/cover;
+  height: 110vh;
+}
+
 .artistic-port {
-    background: url(images/port-arts.JPEG) center/cover;
-    height: 720px;
-    color: #00366f;
-    padding: 20px;
+    background-color: #E7D7C9;
+    height: 100vh;
+    color: #241F19;
+    display: grid;
+    grid-template-rows: repeat(10, 10vh);
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.artistic-port-cuadro{
+  background-color: #EDE9E3;
+  padding: 20px;
+  grid-area: 2 / 5 / 10 / 10;
+  margin-left: 10px;
+  text-align: left;
 }
 
 .artistic-port-title{
-
-    padding-top: 22%;
-    padding-left: 5%;
-    font-size: 55px;
+    font-size:50px;
+    margin-left: 5%;
     line-height: 0.9;
     font-family: BlackMango, serif;
     text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.artistic-port-text{
+  text-align: left;
+  padding: 48px;
+  padding-right: 100px;
+  font-size: 24px;
+  line-height: 0.9;
+  font-family: BlackMango, serif;
+}
+
+.artistic-port-btn{
+  background-color: #87816E;
+  color: #EDE9E3;
+  font-size: 16px;
+  padding: 18px;
+  margin-left: 15px;
+  margin-top: 55px;
+  border: 0;
+}
+
+.artistic-port-img{
+  background: url("images/sofi-torno.jpg") center/cover;
+  grid-area: 2 / 2 / 10 / 5;
+  margin-right: 10px
 }
 
 .prof-port {
@@ -71,20 +109,36 @@
 }
 
 .about-me {
-    background: url(images/about-me.JPEG) center/cover;
-    height: 720px;
-    color: #00366f;
-    padding: 20px;
-
+    background-color: #E7D7C9;
+    height: 100vh;
+    color: #241F19;
+    display: grid;
+    grid-template-rows: repeat(10, 10vh);
+    grid-template-columns: repeat(10, 1fr)
 }
 
 .about-me-title{
-
-    padding-top: 22%;
-    padding-left: 5%;
-    font-size: 55px;
-    line-height: 0.9;
+    grid-area: 1 / 5 / 4 / 7;
+    padding-top: 18%;
+    padding-left: 18%;
+    font-size: 70px;
+    line-height: 1.1;
     font-family: BlackMango, serif;
+    z-index: 1;
+}
+
+.about-me-text{
+  grid-area: 4 / 6 / 8 / 10;
+  font-size: 22px;
+  font-family: BlackMango, serif;
+  line-height: 1.2;
+  padding-left: 5%;
+  padding-top: 12%;
+}
+
+.about-me-img{
+  grid-area: 2 / 2 / 10 / 6;
+  background: url("images/s-lich.jpg") center/cover no-repeat;
 }
 
 .for-sale {
@@ -125,8 +179,8 @@ body, html {
     }
 
     /* Adjust other styles as needed for mobile */
-    .artistic-port-title, .prof-port-title, .about-me-title, .for-sale-title {
-        padding-top: 10%;
+    .artistic-port-title, .prof-port-title, .for-sale-title {
+        padding-top: 18%;
         padding-left: 2%;
         font-size: 50px;
     }
@@ -144,6 +198,42 @@ body, html {
     .arrow-right {
         margin-top: 50%;
     }
+    
+    .about-me-title{
+      font-size: 45px;
+      grid-area: 1 / 5 / 3 / 9
+  }
+    .about-me-img{
+      grid-area: 2 / 2 / 6 / 9;
+    }
+    .about-me-text{
+    font-size: 19px;
+    grid-area: 6 / 2 / 9 / 9;
+    padding-top: 8%;
+  }
+    .artistic-port-cuadro{
+    grid-area: 6 / 2 / 10 / 10;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+    .artistic-port-title{
+    padding-top: 10px;
+    font-size: 35px;
+  }
+    .artistic-port-text{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+    .artistic-port-btn{
+    font-size: 10px;
+    margin-top: 16%;
+  }
+    .artistic-port-img{
+    grid-area: 2 / 2 / 6 / 10;
+    margin: 0;
+  }
 }
 
 a {
@@ -163,5 +253,5 @@ a {
 
   hr{
     margin: 0;
-    border: 1px solid #00366f;
+    border: 1px solid black;
   }
