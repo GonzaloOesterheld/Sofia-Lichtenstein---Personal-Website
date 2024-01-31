@@ -28,7 +28,7 @@
     margin-bottom: 0;
 }
 
-.main-title{  
+.main-title{
     font-size: 105px;
     line-height: 0;
     font-family: BlackMango, serif;
@@ -201,7 +201,7 @@ body, html {
     }
     
     .about-me-title{
-      font-size: 45px;
+      font-size: 40px;
       grid-area: 1 / 5 / 3 / 9
   }
     .about-me-img{
