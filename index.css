@@ -93,20 +93,53 @@
 }
 
 .prof-port {
-    background: url(images/port-prof.JPG) center/cover;
-    height: 720px;
-    color: #00366f;
-    padding: 20px;
+  background-color: #E7D7C9;
+  height: 100vh;
+  color: #241F19;
+  display: grid;
+  grid-template-rows: repeat(10, 10vh);
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.prof-port-cuadro{
+background-color: #EDE9E3;
+padding: 20px;
+grid-area: 2 / 5 / 10 / 10;
+margin-left: 10px;
+text-align: left;
 }
 
 .prof-port-title{
+  font-size:50px;
+  margin-left: 5%;
+  line-height: 0.9;
+  font-family: BlackMango, serif;
+  text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
+}
 
-    padding-top: 22%;
-    padding-left: 5%;
-    font-size: 55px;
-    line-height: 0.9;
-    font-family: BlackMango, serif;
-    text-shadow: 15px 3px 1px 1px rgba(0, 0, 0, 0.5);
+.prof-port-text{
+text-align: left;
+padding: 48px;
+padding-right: 100px;
+font-size: 24px;
+line-height: 1;
+font-family: Merriweather, serif;
+}
+
+.prof-port-btn{
+background-color: #87816E;
+color: #EDE9E3;
+font-size: 16px;
+padding: 18px;
+margin-left: 15px;
+margin-top: 55px;
+border: 0;
+}
+
+.prof-port-img{
+background: url("images/port-prof.JPG") center/cover;
+grid-area: 2 / 2 / 10 / 5;
+margin-right: 10px
 }
 
 .about-me {
@@ -239,8 +272,35 @@ body, html {
     margin-top: 15px;
   }
 
+  .prof-port-cuadro{
+    grid-area: 6 / 2 / 11 / 10;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
 
-    .imagen-separador{
+  .prof-port-title{
+    padding-top: 1px;
+    margin-top: 0;
+    font-size: 35px;
+  }
+  .prof-port-text{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  .prof-port-btn{
+    font-size: 10px;
+    margin-top: 20px;
+  }
+  .prof-port-img{
+    grid-area: 1 / 2 / 6 / 10;
+    margin: 0;
+    margin-top: 15px;
+  }
+  
+  
+  .imagen-separador{
     height: 40vh;
 
   }
@@ -263,3 +323,7 @@ a {
   }
 
 
+  hr{
+    margin: 0;
+    border: 1px solid black;
+  }
