@@ -9,13 +9,13 @@ body {
     color: #ffffff;
     margin: 0;
     padding: 0;
-    background-color: #3a2a19;
+    background-color: #87816E;
 
   }
 
   header{
     font-family: BlackMango, sans-serif;
-    background-color: #3a2a19;
+    background-color: #87816E;
     padding-top: 60px;
     padding-bottom: 60px;
     text-align: center;
@@ -30,7 +30,7 @@ header p{
 }
 
 header button{
-    background-color: #3a2a19;
+    background-color: #87816E;
     color: #faebd7;
     border: 1px #faebd7 solid;
     padding:15px;
@@ -41,7 +41,7 @@ header button{
 
 header button:hover{
     background-color: #faebd7;
-    color: #3a2a19;
+    color: #87816E;
     border: 1px #faebd7 solid;
     padding:15px;
     max-height: 45px;
