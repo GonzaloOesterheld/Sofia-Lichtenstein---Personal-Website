@@ -53,122 +53,132 @@ hr{
   background-color: #faebd7;
 }
 
+.matienzo{
+  color: white;
+  font-family: BlackMango, sans-serif;
+  font-size: 45px;
+  text-align: center;
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-grow: 1;
     width: 100%;
-
+    
 }
-
-.gallery a {
-  display: block;
-  overflow: hidden;
-  width: 58%;
-  height: auto;
-  border: 0; 
-  justify-content: center;
-  object-fit: cover;
-}
-
-  .gallery img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin: 0px;
-  }
-
 
   .img-txt{
+    width: 40%;
+    height: 48vh;
+    background-color: white;
+    margin: 15px;
+  }
+
+  .present-cont{
+    width: 40%;
+    height: 48vh;
+    background-color: white;
+    margin: 15px;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
-    flex-grow: 1;
-    padding: 15px 0px 15px 0px;
-  }
+    align-items: center;
+}
 
-  .txts-left{
-    background-color: black;
-    max-width: 39%; 
-    object-fit: cover;
-  }
+  .video-cont{
+    width: 40%;
+    height: 48vh;
+    background-color: white;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  .txts-right{
-    background-color: black;
-    max-width: 39%;
-    object-fit: cover;
-  }
+  .img-cont{
+    width: 40%;
+    height: 48vh;
+    background-color: white;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  .txts-left h2 {
-    font-family: BlackMango, serif;
-    font-size: 35px;
-    padding: 5px;
-    padding-left: 15px;
-    color:#faebd7;
-  }
+  .texto{
+  color: black;
+  max-width: 45%;
+  text-align: center;
+  background-color: wheat;
+  height: 90%;
+}
+  .texto h2{
+  padding-top: 15px;
+}
+  .texto p{
+  font-size: 15px;
+  padding: 25px;
+}
 
-  .txts-left p{
-    font-family: 'EB Garamond', serif;
-    color: #ffffff;
-    font-size: 25px;
-    padding-bottom: 5px;
-    padding-top: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-right: 10px;
-  }
+  .banner{
+    background: url(images/matienzo-portada.jpg) center/cover no-repeat; 
+    width: 45%;
+    height: 90%;
+}
+  video{
+    max-width: 90%;
+    height: 90%;
+    object-fit: fill
+}
 
-  .txts-right h2 {
-    font-family: BlackMango, serif;
-    font-size: 35px;
-    padding: 5px;
-    padding-left: 15px;
-    color:#faebd7
-  }
+  .img1{
+    background: url(images/cartel-calle.jpg) center/cover no-repeat; 
+    width: 45%;
+    height: 90%;
+    margin-right: 4px;
+}
 
-  .txts-right p{
-    font-family: 'EB Garamond', serif;
-    color: #ffffff;
-    font-size: 25px;
-    padding-bottom: 5px;
-    padding-top: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+  .img2{
+    background: url(images/cartel-ruta.jpg) center/cover no-repeat; 
+    width: 45%;
+    height: 90%;
+    margin-left: 4px;
+}
 
+  .ind-img{
+  background: url(images/cartel-alto.png) center/cover no-repeat;
+  width: 90%;
+  height: 90%;
+}
+
+  .ind-img-2{
+  background: url(images/cartel-alto-2.png) center/cover no-repeat;
+  width: 90%;
+  height: 90%;
+}
 
   @media only screen and (max-width: 600px) {
 
-    .img-txt{
-      padding: 0;
+    .gallery{
+    flex-direction: column;
+  }
+
+    .img-cont, .present-cont, .video-cont, .img-txt{
       padding-bottom: 8px;
-      margin: 0;
+      padding: 8px;
+      width: 90%;
+      height: 200px;
     }
-    .txts-left{
-      padding: 0;
-      max-width: 39%;
-      height: auto;
-    }
-    .txts-left h2{
-      font-size: 20px;
-    }
-    .txts-left p{
-      font-size: 15px;
-    }
-  
-    .txts-right{
-      padding: 0;
-      max-width: 39%;
-      height: auto;
-    }
-    .txts-right h2{
-      font-size: 20px;
-    }
-    .txts-right p{
-      font-size: 15px;
-    }
+    
+    .texto p{
+    padding: 0;
+  }
+
+    .banner{
+    
+  }
+
     header button{
       margin-right: 75%;
     }
